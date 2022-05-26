@@ -45,7 +45,7 @@ RUN ruby -v
 # Install Bundler fixed to 2.2.1
 # Apparently it can mimick projects that need bundler v1.
 # @see https://bundler.io/blog/2019/01/04/an-update-on-the-bundler-2-release.html
-RUN gem install bundler:2.2.1
+RUN gem install bundler:2.3.9
 
 # Install from Gemfile.
 RUN bundle install
